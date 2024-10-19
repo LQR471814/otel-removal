@@ -6,6 +6,11 @@
 
 ```sh
 go install github.com/LQR471814/otel-removal@latest
+
+otel-removal ./path/to/pkg
+# or if you want to get all the packages under a directory recursively
+otel-removal ./...
+otel-removal ./dir/...
 ```
 
 ## Justification
